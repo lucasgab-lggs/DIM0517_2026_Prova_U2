@@ -1,13 +1,13 @@
 name: Java
 
-on: 
-push:
-  branches:
-    - 'features/**'
-  paths:
-    - 'java/src'
-    - 'java/Dockerfile'
-    - 'java/target/*.jar'
+on:
+  push:
+    branches:
+      - 'releases/**'
+    paths:
+      - 'java/src'
+      - 'java/Dockerfile'
+      - 'java/target/*.jar' 
 
 jobs:
   build:
