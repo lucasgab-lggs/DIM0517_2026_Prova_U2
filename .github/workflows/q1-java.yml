@@ -1,9 +1,9 @@
 name: Java
 
 on: 
-  push:
-    branches:
-      - 'features/**'
+push:
+  branches:
+    - 'features/**'
   paths:
     - 'java/src'
     - 'java/Dockerfile'
